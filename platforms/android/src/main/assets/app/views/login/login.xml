@@ -1,0 +1,10 @@
+<Page loaded="loaded">
+  <StackLayout orientation="vertical">
+    <Button text="Inicia sesión con Facebook" cssClass="FacebookLogin"/>
+    <Label text="o con tu correo electrónico" cssClass="loginOptions"/>
+    <TextField hint="Correo electrónico" keyboardType="email"/>
+    <TextField hint="Password" secure="true"/>
+    <Button text="Iniciar sesión"/>
+    <Button text="Registrarse"/>
+  </StackLayout>
+</Page>

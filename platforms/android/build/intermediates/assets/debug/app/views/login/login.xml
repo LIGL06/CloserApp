@@ -1,0 +1,6 @@
+<Page>
+  <TextField hint="Correo electrónico" keyboardType="email"/>
+  <TextField hint="Password" secure="true" />
+  <Button text="Iniciar Sesión" />
+  <Button text="Registrarse" />
+</Page>

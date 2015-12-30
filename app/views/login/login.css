@@ -1,0 +1,39 @@
+@import { url('~/platform.css') };
+Page {
+  background-color: white;
+  font-size:17;
+  color:white;
+  background-image: url('~/images/bg.png');
+  background-repeat: no repeat;
+  background-position:center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+TextField{
+  margin:10;
+  padding:10;
+}
+Image{
+  margin-top:20;
+  margin-left:0;
+  margin-right:0;
+  margin-bottom: 80;
+}
+Button{
+  margin:10;
+  padding: 10;
+  font-size: 20;
+  background-color:#FF3716;
+  width: 1000;
+}
+.FacebookLogin{
+  margin-top: 50;
+  background-color: #2A46A1;
+}
+.link{
+  background-color: transparent;
+  border-width:0;
+}
+.loginOptions{
+  text-align: center;
+}

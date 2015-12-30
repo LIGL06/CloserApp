@@ -1,0 +1,11 @@
+<Page>
+  <StackLayout orientation="vertical">
+    <Button id="FacebookLogin" text="Regístrarse con Facebook"/>
+    <Label id="loginOptions" text="o con tu correo electrónico"/>
+    <TextField hint="Correo electrónico" keyboardType="email"/>
+    <TextField hint="Password" secure="true"/>
+    <TextField hint="Fecha de nacimiento" keyboardType="datetime"/>
+    <TextField hint="Sexo" keyboardType="text"/>
+    <Button text="Registrarse" cssClass="link"/>
+  </StackLayout>
+</Page>
